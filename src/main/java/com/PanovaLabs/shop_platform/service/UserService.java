@@ -44,4 +44,9 @@ public class UserService {
         }
         return false;  // 해당 ID가 없으면 삭제 실패
     }
+
+	public static User createUser(User user) {
+		// TODO Auto-generated method stub
+		return user;
+	}
 }
